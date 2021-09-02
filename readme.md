@@ -6,7 +6,7 @@
 
 ## About
 
-These are the wiring diagrams I have created for guitars I have worked on, mostly my own, but also some I Have given to friends.
+These are the wiring diagrams I have created for guitars I have worked on, mostly my own, but also some I have given to friends.
 
 # The Creator
 

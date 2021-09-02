@@ -11,4 +11,4 @@ These are the wiring diagrams I have created for guitars I have worked on, mostl
 # The Creator
 
 I do not say that I "play guitar". I am very clear that I "persist at guitar". I also really enjoy setting them up and creating new (to me at least)
-circuit desings for them.
+circuit designs for them.

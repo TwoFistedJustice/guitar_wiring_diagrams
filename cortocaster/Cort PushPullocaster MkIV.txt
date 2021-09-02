@@ -1,0 +1,12 @@
+The lone toggle switch is phase reverse.
+Upper contacts: White is hot, black is ground
+Lower contacts: Black is hot, white is ground
+
+Vol PP:
+Up: Bridge ON, bypass tone pot go straight to volume
+Down: Bridge subject to 5-way switch, tone pot active on bridge
+
+Tone PP:
+Both positions: Greasebucket
+Up: 22nf cap
+Down: 47nf or 68nf cap

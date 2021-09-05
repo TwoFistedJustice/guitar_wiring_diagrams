@@ -5,8 +5,9 @@
     <minor>19</minor>
     <build>0</build>
   </fileVersion>
-  <title>New Project</title>
-  <author>hoo</author>
+  <title>CTS Push Pull Diagram</title>
+  <author>Nekomancer - Russ Bain</author>
+  <description>This shows the switch and solering positions of CTS PP pots</description>
   <width value="29.0" unit="cm"/>
   <height value="21.0" unit="cm"/>
   <gridSpacing value="0.1" unit="in"/>
@@ -56,9 +57,9 @@
       <name>Trace3</name>
       <alpha>127</alpha>
       <points>
-        <point x="2.7" y="5.9"/>
-        <point x="3.4" y="5.3"/>
-        <point x="3.05" y="5.6"/>
+        <point x="2.9" y="5.9"/>
+        <point x="3.6" y="5.3"/>
+        <point x="3.25" y="5.6"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -76,9 +77,9 @@
       <name>Trace4</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.2" y="5.2"/>
-        <point x="6.4" y="5.2"/>
-        <point x="5.8" y="5.2"/>
+        <point x="5.4" y="5.2"/>
+        <point x="6.6" y="5.2"/>
+        <point x="6.0" y="5.2"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -181,11 +182,11 @@
       <alpha>127</alpha>
       <value></value>
       <controlPoints>
-        <point x="2.2" y="5.6"/>
-        <point x="2.9" y="6.3"/>
+        <point x="2.4000000000000004" y="5.6"/>
+        <point x="3.1" y="6.3"/>
       </controlPoints>
-      <firstPoint x="2.2" y="5.6"/>
-      <secondPoint x="2.9" y="6.3"/>
+      <firstPoint x="2.4000000000000004" y="5.6"/>
+      <secondPoint x="3.1" y="6.3"/>
       <color hex="ffffff"/>
       <borderColor hex="000000"/>
       <borderThickness value="0.2" unit="mm"/>
@@ -195,11 +196,11 @@
       <alpha>127</alpha>
       <value></value>
       <controlPoints>
-        <point x="3.1" y="4.9"/>
-        <point x="3.8" y="5.6"/>
+        <point x="3.3" y="4.9"/>
+        <point x="4.0" y="5.6"/>
       </controlPoints>
-      <firstPoint x="3.1" y="4.9"/>
-      <secondPoint x="3.8" y="5.6"/>
+      <firstPoint x="3.3" y="4.9"/>
+      <secondPoint x="4.0" y="5.6"/>
       <color hex="ffffff"/>
       <borderColor hex="000000"/>
       <borderThickness value="0.2" unit="mm"/>
@@ -209,11 +210,11 @@
       <alpha>127</alpha>
       <value></value>
       <controlPoints>
-        <point x="3.9" y="5.6"/>
-        <point x="4.6" y="6.3"/>
+        <point x="4.1" y="5.6"/>
+        <point x="4.8" y="6.3"/>
       </controlPoints>
-      <firstPoint x="3.9" y="5.6"/>
-      <secondPoint x="4.6" y="6.3"/>
+      <firstPoint x="4.1" y="5.6"/>
+      <secondPoint x="4.8" y="6.3"/>
       <color hex="ffffff"/>
       <borderColor hex="000000"/>
       <borderThickness value="0.2" unit="mm"/>
@@ -223,11 +224,11 @@
       <alpha>127</alpha>
       <value></value>
       <controlPoints>
-        <point x="4.7" y="4.9"/>
-        <point x="5.4" y="5.6"/>
+        <point x="4.9" y="4.9"/>
+        <point x="5.6" y="5.6"/>
       </controlPoints>
-      <firstPoint x="4.7" y="4.9"/>
-      <secondPoint x="5.4" y="5.6"/>
+      <firstPoint x="4.9" y="4.9"/>
+      <secondPoint x="5.6" y="5.6"/>
       <color hex="ffffff"/>
       <borderColor hex="000000"/>
       <borderThickness value="0.2" unit="mm"/>
@@ -237,11 +238,11 @@
       <alpha>127</alpha>
       <value></value>
       <controlPoints>
-        <point x="5.5" y="5.6"/>
-        <point x="6.2" y="6.3"/>
+        <point x="5.7" y="5.6"/>
+        <point x="6.4" y="6.3"/>
       </controlPoints>
-      <firstPoint x="5.5" y="5.6"/>
-      <secondPoint x="6.2" y="6.3"/>
+      <firstPoint x="5.7" y="5.6"/>
+      <secondPoint x="6.4" y="6.3"/>
       <color hex="ffffff"/>
       <borderColor hex="000000"/>
       <borderThickness value="0.2" unit="mm"/>
@@ -251,11 +252,11 @@
       <alpha>127</alpha>
       <value></value>
       <controlPoints>
-        <point x="6.3" y="4.9"/>
-        <point x="7.0" y="5.6"/>
+        <point x="6.5" y="4.9"/>
+        <point x="7.2" y="5.6"/>
       </controlPoints>
-      <firstPoint x="6.3" y="4.9"/>
-      <secondPoint x="7.0" y="5.6"/>
+      <firstPoint x="6.5" y="4.9"/>
+      <secondPoint x="7.2" y="5.6"/>
       <color hex="ffffff"/>
       <borderColor hex="000000"/>
       <borderThickness value="0.2" unit="mm"/>
@@ -285,9 +286,9 @@
       <name>RETRACTED</name>
       <alpha>127</alpha>
       <controlPoints>
-        <point x="5.4" y="6.8"/>
-        <point x="4.8" y="6.8"/>
-        <point x="4.2" y="6.8"/>
+        <point x="5.6" y="6.8"/>
+        <point x="5.0" y="6.8"/>
+        <point x="4.4" y="6.8"/>
       </controlPoints>
       <orientation>_180</orientation>
       <taper>LIN</taper>
@@ -392,7 +393,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>L9</name>
-      <point x="2.5" y="5.9"/>
+      <point x="2.7" y="5.9"/>
       <text>C2</text>
       <font name="Dialog.plain" size="26" style="0"/>
       <color hex="000000"/>
@@ -403,7 +404,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>L10</name>
-      <point x="6.6" y="5.2"/>
+      <point x="6.8" y="5.2"/>
       <text>C1</text>
       <font name="Dialog.plain" size="26" style="0"/>
       <color hex="000000"/>
@@ -414,7 +415,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>L11</name>
-      <point x="3.4" y="5.2"/>
+      <point x="3.6" y="5.2"/>
       <text>4</text>
       <font name="Dialog.plain" size="26" style="0"/>
       <color hex="000000"/>
@@ -425,7 +426,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>L12</name>
-      <point x="4.2" y="5.9"/>
+      <point x="4.4" y="5.9"/>
       <text>3</text>
       <font name="Dialog.plain" size="26" style="0"/>
       <color hex="000000"/>
@@ -436,7 +437,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>L13</name>
-      <point x="5.0" y="5.2"/>
+      <point x="5.2" y="5.2"/>
       <text>2</text>
       <font name="Dialog.plain" size="26" style="0"/>
       <color hex="000000"/>
@@ -447,7 +448,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>L14</name>
-      <point x="5.8" y="5.9"/>
+      <point x="6.0" y="5.9"/>
       <text>1</text>
       <font name="Dialog.plain" size="26" style="0"/>
       <color hex="000000"/>
@@ -458,7 +459,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>L15</name>
-      <point x="4.6" y="4.7"/>
+      <point x="4.8" y="4.7"/>
       <text>Plunger Retracted ( DOWN )</text>
       <font name="Dialog.plain" size="26" style="0"/>
       <color hex="000000"/>
@@ -470,40 +471,40 @@
   </components>
   <groups>
     <set>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[3]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[6]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[2]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[5]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[4]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[2]"/>
-      <diylc.passive.PotentiometerPanel reference="../../../components/diylc.passive.PotentiometerPanel"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[9]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[13]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[11]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[4]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[10]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[14]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[7]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[15]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[8]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[9]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[12]"/>
+      <diylc.passive.PotentiometerPanel reference="../../../components/diylc.passive.PotentiometerPanel[2]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[3]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[10]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[12]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[11]"/>
     </set>
     <set>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[10]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[7]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[11]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[4]"/>
-      <diylc.passive.PotentiometerPanel reference="../../../components/diylc.passive.PotentiometerPanel[2]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[9]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[11]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[12]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[3]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[8]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[12]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[13]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[10]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[15]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[14]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[9]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[2]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[6]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[2]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[3]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
+      <diylc.passive.PotentiometerPanel reference="../../../components/diylc.passive.PotentiometerPanel"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[5]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[4]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
     </set>
   </groups>
   <lockedLayers/>

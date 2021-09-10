@@ -109,7 +109,7 @@
       <view>ShaftDown</view>
     </diylc.passive.PotentiometerPanel>
     <diylc.passive.RadialFilmCapacitor>
-      <name>47 or 68k</name>
+      <name>49 or 72 nf</name>
       <alpha>127</alpha>
       <length value="0.5" unit="in"/>
       <width value="0.125" unit="in"/>
@@ -133,30 +133,6 @@
       <outerFoilColor hex="ffffff"/>
       <pinSpacing value="0.1" unit="in"/>
     </diylc.passive.RadialFilmCapacitor>
-    <diylc.passive.AxialFilmCapacitor>
-      <name>22nf</name>
-      <alpha>127</alpha>
-      <length value="0.5" unit="in"/>
-      <width value="0.125" unit="in"/>
-      <points>
-        <point x="6.4" y="7.1"/>
-        <point x="6.6" y="7.1"/>
-        <point x="6.5" y="7.1"/>
-      </points>
-      <bodyColor hex="ffe303"/>
-      <borderColor hex="b29e02"/>
-      <labelColor hex="000000"/>
-      <leadColor hex="cccccc"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>false</hideShortLeads>
-      <value value="22.0" unit="nF"/>
-      <voltage>_63V</voltage>
-      <showOuterFoil>false</showOuterFoil>
-      <outerFoilColor hex="ffffff"/>
-    </diylc.passive.AxialFilmCapacitor>
     <diylc.passive.Resistor>
       <name>4.7k</name>
       <alpha>127</alpha>
@@ -703,6 +679,31 @@
       <stripe1>false</stripe1>
       <stripe2>false</stripe2>
     </diylc.connectivity.TwistedWire>
+    <diylc.passive.RadialFilmCapacitor>
+      <name>22 nf</name>
+      <alpha>127</alpha>
+      <length value="0.5" unit="in"/>
+      <width value="0.125" unit="in"/>
+      <points>
+        <point x="6.4" y="7.1"/>
+        <point x="6.6" y="7.1"/>
+        <point x="6.5" y="7.1"/>
+      </points>
+      <bodyColor hex="ff8000"/>
+      <borderColor hex="b25900"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="22.0" unit="nF"/>
+      <voltage>_63V</voltage>
+      <showOuterFoil>false</showOuterFoil>
+      <outerFoilColor hex="ffffff"/>
+      <pinSpacing value="0.1" unit="in"/>
+    </diylc.passive.RadialFilmCapacitor>
   </components>
   <groups/>
   <lockedLayers/>

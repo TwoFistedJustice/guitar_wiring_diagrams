@@ -2,7 +2,7 @@
 <project>
   <fileVersion>
     <major>4</major>
-    <minor>5</minor>
+    <minor>19</minor>
     <build>0</build>
   </fileVersion>
   <title>Kimmicaster</title>
@@ -29,6 +29,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <thickness value="1.0" unit="mm"/>
       <layer>_1</layer>
     </diylc.connectivity.CopperTrace>
@@ -48,6 +49,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <thickness value="1.0" unit="mm"/>
       <layer>_1</layer>
     </diylc.connectivity.CopperTrace>
@@ -67,6 +69,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <thickness value="1.0" unit="mm"/>
       <layer>_1</layer>
     </diylc.connectivity.CopperTrace>
@@ -217,6 +220,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>true</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <pinSpacing value="0.1" unit="in"/>
       <value value="15.0" unit="nF"/>
       <voltage>_63V</voltage>
@@ -239,6 +243,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <pinSpacing value="0.1" unit="in"/>
       <value value="22.0" unit="nF"/>
       <voltage>_63V</voltage>
@@ -261,6 +266,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <pinSpacing value="0.1" unit="in"/>
       <value value="1.0" unit="nF"/>
       <voltage>_63V</voltage>
@@ -283,6 +289,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="130.0" unit="K"/>
       <power>HALF</power>
       <colorCode>_5_BAND</colorCode>
@@ -296,7 +303,7 @@
       <points>
         <point x="6.1" y="4.2"/>
         <point x="6.1" y="3.7"/>
-        <point x="2.575" y="3.92"/>
+        <point x="2.575" y="3.9199999999999995"/>
       </points>
       <bodyColor hex="8a5e20"/>
       <borderColor hex="735832"/>
@@ -306,6 +313,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="18.0" unit="K"/>
       <power>HALF</power>
       <colorCode>_5_BAND</colorCode>
@@ -424,6 +432,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <thickness value="1.0" unit="mm"/>
       <layer>_1</layer>
     </diylc.connectivity.CopperTrace>
@@ -578,6 +587,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <thickness value="1.0" unit="mm"/>
       <layer>_1</layer>
     </diylc.connectivity.CopperTrace>
@@ -687,6 +697,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <thickness value="1.0" unit="mm"/>
       <layer>_1</layer>
     </diylc.connectivity.CopperTrace>
@@ -696,7 +707,7 @@
       <points>
         <point x="6.5" y="3.7"/>
         <point x="6.5" y="3.4"/>
-        <point x="-0.87" y="2.145"/>
+        <point x="-0.87" y="2.1449999999999987"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -706,6 +717,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <thickness value="1.0" unit="mm"/>
       <layer>_1</layer>
     </diylc.connectivity.CopperTrace>
@@ -783,6 +795,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <thickness value="1.0" unit="mm"/>
       <layer>_1</layer>
     </diylc.connectivity.CopperTrace>
@@ -802,12 +815,24 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
+    <diylc.misc.Label>
+      <name>L1</name>
+      <point x="7.7" y="4.0"/>
+      <text>The red goes to center NOT to end&lt;br&gt;</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
   </components>
   <groups/>
   <lockedLayers/>
   <lockedComponents/>
   <hiddenLayers/>
-  <font name="Square721 BT Roman" size="14" style="0"/>
+  <font name="Dialog.plain" size="14" style="0"/>
 </project>

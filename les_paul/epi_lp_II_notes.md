@@ -1,0 +1,1 @@
+Swap out the DD Destroyer and the stock pup with Epiphone 400s from the SG Custom

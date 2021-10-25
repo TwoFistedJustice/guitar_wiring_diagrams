@@ -2,7 +2,9 @@
 
 it is routed for Humbuckers.
 
-Use the Epiphone 400s since I have those on hand.
+Use the pups currently in the Epi LP Special II
+Put the Epiphone 400s in the LP..
+
 
 
 Consider:

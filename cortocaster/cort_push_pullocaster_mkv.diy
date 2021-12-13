@@ -34,9 +34,9 @@
       <name>Tone</name>
       <alpha>127</alpha>
       <controlPoints>
-        <point x="6.2" y="6.8"/>
-        <point x="6.5" y="6.8"/>
-        <point x="6.8" y="6.8"/>
+        <point x="6.2" y="6.9"/>
+        <point x="6.5" y="6.9"/>
+        <point x="6.8" y="6.9"/>
       </controlPoints>
       <resistance value="250.0" unit="K"/>
       <orientation>DEFAULT</orientation>
@@ -139,9 +139,9 @@
       <length value="0.5" unit="in"/>
       <width value="0.125" unit="in"/>
       <points>
-        <point x="6.6" y="7.3"/>
-        <point x="7.5" y="7.3"/>
-        <point x="7.05" y="7.3"/>
+        <point x="6.4" y="7.3"/>
+        <point x="5.4" y="7.3"/>
+        <point x="5.9" y="7.3"/>
       </points>
       <bodyColor hex="82cffd"/>
       <borderColor hex="5b90b1"/>
@@ -157,25 +157,6 @@
       <colorCode>_5_BAND</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
-    <diylc.connectivity.Jumper>
-      <name>J3</name>
-      <alpha>127</alpha>
-      <points>
-        <point x="6.2" y="6.8"/>
-        <point x="6.4" y="7.3"/>
-        <point x="6.3" y="7.05"/>
-      </points>
-      <bodyColor hex="ffffff"/>
-      <borderColor hex="000000"/>
-      <labelColor hex="000000"/>
-      <leadColor hex="00ffff"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>false</hideShortLeads>
-      <style>SOLID</style>
-    </diylc.connectivity.Jumper>
     <diylc.guitar.SingleCoilPickup>
       <name>Bridge</name>
       <alpha>127</alpha>
@@ -277,7 +258,7 @@
     </diylc.guitar.SingleCoilPickup>
     <diylc.misc.GroundSymbol>
       <name>GND2</name>
-      <point x="7.5" y="7.3"/>
+      <point x="5.4" y="7.3"/>
       <color hex="000000"/>
       <size value="0.15" unit="in"/>
       <type>DEFAULT</type>
@@ -289,9 +270,9 @@
       <length value="0.5" unit="in"/>
       <width value="0.125" unit="in"/>
       <points>
-        <point x="6.5" y="6.8"/>
-        <point x="6.8" y="6.8"/>
-        <point x="6.65" y="6.8"/>
+        <point x="6.2" y="6.9"/>
+        <point x="6.5" y="6.9"/>
+        <point x="6.35" y="6.9"/>
       </points>
       <bodyColor hex="ffe303"/>
       <borderColor hex="b29e02"/>
@@ -314,7 +295,7 @@
         <point x="4.9" y="4.5"/>
         <point x="5.2" y="5.4"/>
         <point x="5.2" y="6.1"/>
-        <point x="6.8" y="6.8"/>
+        <point x="6.2" y="6.9"/>
       </controlPoints2>
       <color hex="00ffff"/>
       <pointCount>FOUR</pointCount>
@@ -763,6 +744,25 @@
       <striped>false</striped>
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
+    <diylc.connectivity.Jumper>
+      <name>J3</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="6.8" y="6.9"/>
+        <point x="6.6" y="7.3"/>
+        <point x="6.7" y="7.1"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="00ffff"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
   </components>
   <groups/>
   <lockedLayers/>

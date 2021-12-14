@@ -109,7 +109,7 @@
       <view>ShaftDown</view>
     </diylc.passive.PotentiometerPanel>
     <diylc.passive.RadialFilmCapacitor>
-      <name>49 or 72 nf</name>
+      <name>22 or27 nf</name>
       <alpha>127</alpha>
       <length value="0.5" unit="in"/>
       <width value="0.125" unit="in"/>
@@ -623,7 +623,7 @@
       <stripe2>false</stripe2>
     </diylc.connectivity.TwistedWire>
     <diylc.passive.RadialFilmCapacitor>
-      <name>22 nf</name>
+      <name>68 nf</name>
       <alpha>127</alpha>
       <length value="0.5" unit="in"/>
       <width value="0.125" unit="in"/>

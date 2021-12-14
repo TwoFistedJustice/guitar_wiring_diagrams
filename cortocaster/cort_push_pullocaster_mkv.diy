@@ -185,7 +185,7 @@
         <point x="6.2" y="2.5"/>
         <point x="6.7" y="2.5"/>
         <point x="7.1" y="3.3"/>
-        <point x="8.8" y="4.1"/>
+        <point x="4.8" y="4.2"/>
       </controlPoints2>
       <color hex="00ff00"/>
       <pointCount>FOUR</pointCount>
@@ -342,24 +342,6 @@
         <point x="8.8" y="3.9"/>
       </controlPoints2>
       <color hex="00ffff"/>
-      <pointCount>FOUR</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_22</gauge>
-      <striped>false</striped>
-      <stripeColor hex="ffff00"/>
-    </diylc.connectivity.HookupWire>
-    <diylc.connectivity.HookupWire>
-      <name>W6</name>
-      <alpha>127</alpha>
-      <controlPoints2>
-        <point x="8.5" y="3.6"/>
-        <point x="7.8" y="4.2"/>
-        <point x="8.8" y="3.8"/>
-        <point x="9.0" y="4.1"/>
-      </controlPoints2>
-      <color hex="00ff00"/>
       <pointCount>FOUR</pointCount>
       <style>SOLID</style>
       <smooth>true</smooth>
@@ -542,26 +524,6 @@
       <borderColor hex="000000"/>
       <labelColor hex="000000"/>
       <leadColor hex="000000"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>false</hideShortLeads>
-      <thickness value="1.0" unit="mm"/>
-      <layer>_1</layer>
-    </diylc.connectivity.CopperTrace>
-    <diylc.connectivity.CopperTrace>
-      <name>Trace7</name>
-      <alpha>127</alpha>
-      <points>
-        <point x="8.8" y="3.9"/>
-        <point x="9.0" y="3.9"/>
-        <point x="8.9" y="3.9"/>
-      </points>
-      <bodyColor hex="ffffff"/>
-      <borderColor hex="000000"/>
-      <labelColor hex="000000"/>
-      <leadColor hex="00ff00"/>
       <display>NAME</display>
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>

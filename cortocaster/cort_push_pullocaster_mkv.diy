@@ -185,7 +185,7 @@
         <point x="6.2" y="2.5"/>
         <point x="6.7" y="2.5"/>
         <point x="7.1" y="3.3"/>
-        <point x="4.8" y="4.2"/>
+        <point x="8.8" y="4.1"/>
       </controlPoints2>
       <color hex="00ff00"/>
       <pointCount>FOUR</pointCount>
@@ -336,9 +336,9 @@
       <name>W8</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="4.9" y="4.1"/>
-        <point x="6.2" y="4.5"/>
-        <point x="7.7" y="4.2"/>
+        <point x="8.5" y="3.6"/>
+        <point x="8.5" y="3.9"/>
+        <point x="8.4" y="4.0"/>
         <point x="8.8" y="3.9"/>
       </controlPoints2>
       <color hex="00ffff"/>

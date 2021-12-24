@@ -274,10 +274,10 @@
       <orientation>DEFAULT</orientation>
       <controlPoint x="0.0" y="0.0"/>
       <controlPoints>
-        <point x="6.0" y="2.5"/>
-        <point x="6.1" y="2.5"/>
-        <point x="6.2" y="2.5"/>
-        <point x="6.3" y="2.5"/>
+        <point x="1.8" y="2.0"/>
+        <point x="1.9" y="2.0"/>
+        <point x="2.0" y="2.0"/>
+        <point x="2.1" y="2.0"/>
       </controlPoints>
       <polarity>North</polarity>
       <labelColor hex="000000"/>
@@ -292,7 +292,7 @@
       <name>W2</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="6.2" y="2.5"/>
+        <point x="2.0" y="2.0"/>
         <point x="3.4" y="2.6"/>
         <point x="4.6" y="3.7"/>
       </controlPoints2>
@@ -309,10 +309,10 @@
       <name>W3</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="6.1" y="2.5"/>
-        <point x="6.7" y="2.5"/>
-        <point x="11.4" y="1.5"/>
-        <point x="8.9" y="4.4"/>
+        <point x="1.9" y="2.0"/>
+        <point x="2.5" y="2.0"/>
+        <point x="7.2" y="1.0"/>
+        <point x="4.7" y="3.9000000000000004"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -399,7 +399,7 @@
     </diylc.passive.AxialFilmCapacitor>
     <diylc.misc.GroundSymbol>
       <name>GND1</name>
-      <point x="8.9" y="4.5"/>
+      <point x="4.9" y="4.0"/>
       <color hex="000000"/>
       <size value="0.15" unit="in"/>
       <type>DEFAULT</type>
@@ -462,9 +462,9 @@
       <alpha>127</alpha>
       <controlPoints2>
         <point x="6.4" y="0.8"/>
-        <point x="10.7" y="0.8"/>
-        <point x="11.1" y="3.8"/>
-        <point x="8.9" y="4.4"/>
+        <point x="6.9" y="2.3"/>
+        <point x="8.3" y="3.4"/>
+        <point x="4.7" y="3.9000000000000004"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -479,9 +479,9 @@
       <alpha>127</alpha>
       <controlPoints2>
         <point x="6.4" y="1.6"/>
-        <point x="9.3" y="1.8"/>
-        <point x="11.2" y="2.8"/>
-        <point x="8.9" y="4.4"/>
+        <point x="6.9" y="2.4"/>
+        <point x="6.2" y="3.1"/>
+        <point x="4.7" y="3.9000000000000004"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -595,7 +595,7 @@
       <name>Pad1</name>
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
-      <point x="8.9" y="4.4"/>
+      <point x="4.7" y="3.9000000000000004"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
@@ -839,26 +839,26 @@
   </components>
   <groups>
     <set>
-      <diylc.passive.RadialFilmCapacitor reference="../../../components/diylc.passive.RadialFilmCapacitor[2]"/>
-      <diylc.electromechanical.MiniToggleSwitch reference="../../../components/diylc.electromechanical.MiniToggleSwitch"/>
-      <diylc.passive.PotentiometerPanel reference="../../../components/diylc.passive.PotentiometerPanel"/>
-      <diylc.misc.GroundSymbol reference="../../../components/diylc.misc.GroundSymbol"/>
-      <diylc.connectivity.HookupWire reference="../../../components/diylc.connectivity.HookupWire[8]"/>
-      <diylc.passive.Resistor reference="../../../components/diylc.passive.Resistor"/>
-      <diylc.passive.AxialFilmCapacitor reference="../../../components/diylc.passive.AxialFilmCapacitor"/>
-      <diylc.passive.RadialFilmCapacitor reference="../../../components/diylc.passive.RadialFilmCapacitor"/>
-    </set>
-    <set>
       <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper"/>
-      <diylc.electromechanical.PinHeader reference="../../../components/diylc.electromechanical.PinHeader"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
+      <diylc.electromechanical.PinHeader reference="../../../components/diylc.electromechanical.PinHeader"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[8]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[8]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
+    </set>
+    <set>
+      <diylc.passive.RadialFilmCapacitor reference="../../../components/diylc.passive.RadialFilmCapacitor"/>
+      <diylc.passive.Resistor reference="../../../components/diylc.passive.Resistor"/>
+      <diylc.connectivity.HookupWire reference="../../../components/diylc.connectivity.HookupWire[8]"/>
+      <diylc.electromechanical.MiniToggleSwitch reference="../../../components/diylc.electromechanical.MiniToggleSwitch"/>
+      <diylc.passive.AxialFilmCapacitor reference="../../../components/diylc.passive.AxialFilmCapacitor"/>
+      <diylc.passive.PotentiometerPanel reference="../../../components/diylc.passive.PotentiometerPanel"/>
+      <diylc.passive.RadialFilmCapacitor reference="../../../components/diylc.passive.RadialFilmCapacitor[2]"/>
+      <diylc.misc.GroundSymbol reference="../../../components/diylc.misc.GroundSymbol"/>
     </set>
   </groups>
   <lockedLayers/>

@@ -741,8 +741,8 @@
       <name>W4</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="4.6" y="4.7"/>
-        <point x="5.3" y="4.2"/>
+        <point x="4.6" y="3.7"/>
+        <point x="5.9" y="3.2"/>
         <point x="5.3" y="5.2"/>
         <point x="8.8" y="4.1"/>
       </controlPoints2>
@@ -839,26 +839,26 @@
   </components>
   <groups>
     <set>
-      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
-      <diylc.electromechanical.PinHeader reference="../../../components/diylc.electromechanical.PinHeader"/>
+      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[8]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
+      <diylc.electromechanical.PinHeader reference="../../../components/diylc.electromechanical.PinHeader"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[8]"/>
     </set>
     <set>
-      <diylc.passive.RadialFilmCapacitor reference="../../../components/diylc.passive.RadialFilmCapacitor"/>
-      <diylc.passive.Resistor reference="../../../components/diylc.passive.Resistor"/>
+      <diylc.passive.PotentiometerPanel reference="../../../components/diylc.passive.PotentiometerPanel"/>
       <diylc.connectivity.HookupWire reference="../../../components/diylc.connectivity.HookupWire[8]"/>
       <diylc.electromechanical.MiniToggleSwitch reference="../../../components/diylc.electromechanical.MiniToggleSwitch"/>
       <diylc.passive.AxialFilmCapacitor reference="../../../components/diylc.passive.AxialFilmCapacitor"/>
-      <diylc.passive.PotentiometerPanel reference="../../../components/diylc.passive.PotentiometerPanel"/>
+      <diylc.passive.Resistor reference="../../../components/diylc.passive.Resistor"/>
       <diylc.passive.RadialFilmCapacitor reference="../../../components/diylc.passive.RadialFilmCapacitor[2]"/>
       <diylc.misc.GroundSymbol reference="../../../components/diylc.misc.GroundSymbol"/>
+      <diylc.passive.RadialFilmCapacitor reference="../../../components/diylc.passive.RadialFilmCapacitor"/>
     </set>
   </groups>
   <lockedLayers/>

@@ -144,9 +144,9 @@
       <name>Tone</name>
       <alpha>127</alpha>
       <controlPoints>
-        <point x="6.2" y="6.0"/>
-        <point x="6.5" y="6.0"/>
-        <point x="6.8" y="6.0"/>
+        <point x="6.2" y="6.4"/>
+        <point x="6.5" y="6.4"/>
+        <point x="6.8" y="6.4"/>
       </controlPoints>
       <resistance value="250.0" unit="K"/>
       <orientation>DEFAULT</orientation>
@@ -172,23 +172,6 @@
         <point x="6.6" y="5.1"/>
         <point x="6.6" y="5.3"/>
         <point x="6.6" y="5.5"/>
-      </controlPoints>
-      <switchType>DPDT</switchType>
-      <orientation>VERTICAL</orientation>
-      <spacing value="0.2" unit="in"/>
-      <bodyColor hex="3299cc"/>
-      <borderColor hex="236b8e"/>
-    </diylc.electromechanical.MiniToggleSwitch>
-    <diylc.electromechanical.MiniToggleSwitch>
-      <name>SW2</name>
-      <alpha>127</alpha>
-      <controlPoints>
-        <point x="8.8" y="3.9"/>
-        <point x="8.8" y="4.1"/>
-        <point x="8.8" y="4.3"/>
-        <point x="9.0" y="3.9"/>
-        <point x="9.0" y="4.1"/>
-        <point x="9.0" y="4.3"/>
       </controlPoints>
       <switchType>DPDT</switchType>
       <orientation>VERTICAL</orientation>
@@ -224,9 +207,9 @@
       <length value="0.5" unit="in"/>
       <width value="0.125" unit="in"/>
       <points>
-        <point x="6.4" y="5.5"/>
-        <point x="6.6" y="5.5"/>
-        <point x="6.5" y="5.5"/>
+        <point x="6.4" y="5.1"/>
+        <point x="6.6" y="5.1"/>
+        <point x="6.5" y="5.1"/>
       </points>
       <bodyColor hex="ff8000"/>
       <borderColor hex="b25900"/>
@@ -249,9 +232,9 @@
       <length value="0.5" unit="in"/>
       <width value="0.125" unit="in"/>
       <points>
-        <point x="6.4" y="5.3"/>
-        <point x="5.6" y="5.3"/>
-        <point x="6.0" y="5.3"/>
+        <point x="6.6" y="5.3"/>
+        <point x="7.3" y="5.3"/>
+        <point x="6.95" y="5.3"/>
       </points>
       <bodyColor hex="82cffd"/>
       <borderColor hex="5b90b1"/>
@@ -367,7 +350,7 @@
     </diylc.guitar.SingleCoilPickup>
     <diylc.misc.GroundSymbol>
       <name>GND2</name>
-      <point x="5.6" y="5.3"/>
+      <point x="7.3" y="5.3"/>
       <color hex="000000"/>
       <size value="0.15" unit="in"/>
       <type>DEFAULT</type>
@@ -398,24 +381,6 @@
       <gauge>_22</gauge>
       <striped>true</striped>
       <stripeColor hex="990033"/>
-    </diylc.connectivity.HookupWire>
-    <diylc.connectivity.HookupWire>
-      <name>W8</name>
-      <alpha>127</alpha>
-      <controlPoints2>
-        <point x="8.5" y="3.6"/>
-        <point x="8.5" y="3.9"/>
-        <point x="8.4" y="4.0"/>
-        <point x="8.8" y="3.9"/>
-      </controlPoints2>
-      <color hex="ffff66"/>
-      <pointCount>FOUR</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_22</gauge>
-      <striped>false</striped>
-      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.CurvedTrace>
       <name>Trace5</name>
@@ -552,8 +517,8 @@
       <alpha>127</alpha>
       <points>
         <point x="9.1" y="3.6"/>
-        <point x="9.2" y="3.2"/>
-        <point x="9.15" y="3.4"/>
+        <point x="9.1" y="3.2"/>
+        <point x="9.1" y="3.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -688,24 +653,6 @@
       <showOuterFoil>false</showOuterFoil>
       <outerFoilColor hex="ffffff"/>
     </diylc.passive.AxialFilmCapacitor>
-    <diylc.connectivity.HookupWire>
-      <name>W4</name>
-      <alpha>127</alpha>
-      <controlPoints2>
-        <point x="4.6" y="3.7"/>
-        <point x="5.9" y="3.2"/>
-        <point x="5.3" y="5.2"/>
-        <point x="8.8" y="4.1"/>
-      </controlPoints2>
-      <color hex="ffffff"/>
-      <pointCount>FOUR</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_22</gauge>
-      <striped>true</striped>
-      <stripeColor hex="990033"/>
-    </diylc.connectivity.HookupWire>
     <diylc.misc.Label>
       <name>L2</name>
       <point x="0.0" y="0.0"/>
@@ -724,7 +671,7 @@
         <point x="4.6" y="5.1"/>
         <point x="4.7" y="5.7"/>
         <point x="6.0" y="7.0"/>
-        <point x="6.8" y="6.0"/>
+        <point x="6.2" y="6.4"/>
       </controlPoints2>
       <color hex="ffff66"/>
       <pointCount>FOUR</pointCount>
@@ -755,10 +702,10 @@
       <name>W6</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="6.6" y="5.3"/>
-        <point x="7.0" y="5.6"/>
-        <point x="6.0" y="5.8"/>
-        <point x="6.2" y="6.0"/>
+        <point x="6.4" y="5.3"/>
+        <point x="5.9" y="5.7"/>
+        <point x="6.3" y="6.0"/>
+        <point x="6.8" y="6.4"/>
       </controlPoints2>
       <color hex="ffff66"/>
       <pointCount>FOUR</pointCount>
@@ -793,9 +740,9 @@
       <length value="0.5" unit="in"/>
       <width value="0.125" unit="in"/>
       <points>
-        <point x="6.5" y="6.1"/>
-        <point x="6.8" y="6.1"/>
-        <point x="6.65" y="6.1"/>
+        <point x="6.2" y="6.4"/>
+        <point x="6.5" y="6.4"/>
+        <point x="6.35" y="6.4"/>
       </points>
       <bodyColor hex="ff8000"/>
       <borderColor hex="b25900"/>
@@ -812,19 +759,71 @@
       <outerFoilColor hex="ffffff"/>
       <pinSpacing value="0.1" unit="in"/>
     </diylc.passive.RadialFilmCapacitor>
+    <diylc.electromechanical.MiniToggleSwitch>
+      <name>SW2</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <point x="8.700000000000001" y="2.3"/>
+        <point x="8.700000000000001" y="2.4999999999999996"/>
+        <point x="8.700000000000001" y="2.7"/>
+        <point x="8.9" y="2.3"/>
+        <point x="8.9" y="2.4999999999999996"/>
+        <point x="8.9" y="2.7"/>
+      </controlPoints>
+      <switchType>DPDT</switchType>
+      <orientation>VERTICAL</orientation>
+      <spacing value="0.2" unit="in"/>
+      <bodyColor hex="3299cc"/>
+      <borderColor hex="236b8e"/>
+    </diylc.electromechanical.MiniToggleSwitch>
+    <diylc.connectivity.HookupWire>
+      <name>W4</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="4.6" y="3.7"/>
+        <point x="5.9" y="3.2"/>
+        <point x="5.3" y="5.2"/>
+        <point x="8.9" y="2.5"/>
+      </controlPoints2>
+      <color hex="ffffff"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>true</striped>
+      <stripeColor hex="990033"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W8</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="8.5" y="3.6"/>
+        <point x="9.6" y="2.9"/>
+        <point x="8.9" y="2.7"/>
+      </controlPoints2>
+      <color hex="ffff66"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
   </components>
   <groups>
     <set>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
-      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper"/>
-      <diylc.electromechanical.PinHeader reference="../../../components/diylc.electromechanical.PinHeader"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[8]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
+      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
+      <diylc.electromechanical.PinHeader reference="../../../components/diylc.electromechanical.PinHeader"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
     </set>
   </groups>
   <lockedLayers/>

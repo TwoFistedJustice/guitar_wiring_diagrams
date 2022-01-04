@@ -144,9 +144,9 @@
       <name>Tone</name>
       <alpha>127</alpha>
       <controlPoints>
-        <point x="6.3" y="6.0"/>
-        <point x="6.6" y="6.0"/>
-        <point x="6.9" y="6.0"/>
+        <point x="6.2" y="6.0"/>
+        <point x="6.5" y="6.0"/>
+        <point x="6.8" y="6.0"/>
       </controlPoints>
       <resistance value="250.0" unit="K"/>
       <orientation>DEFAULT</orientation>
@@ -166,12 +166,12 @@
       <name>SW1</name>
       <alpha>127</alpha>
       <controlPoints>
-        <point x="6.5" y="6.2"/>
-        <point x="6.5" y="6.4"/>
-        <point x="6.5" y="6.6"/>
-        <point x="6.7" y="6.2"/>
-        <point x="6.7" y="6.4"/>
-        <point x="6.7" y="6.6"/>
+        <point x="6.4" y="5.1"/>
+        <point x="6.4" y="5.3"/>
+        <point x="6.4" y="5.5"/>
+        <point x="6.6" y="5.1"/>
+        <point x="6.6" y="5.3"/>
+        <point x="6.6" y="5.5"/>
       </controlPoints>
       <switchType>DPDT</switchType>
       <orientation>VERTICAL</orientation>
@@ -224,9 +224,9 @@
       <length value="0.5" unit="in"/>
       <width value="0.125" unit="in"/>
       <points>
-        <point x="6.5" y="6.6"/>
-        <point x="6.7" y="6.6"/>
-        <point x="6.6" y="6.6"/>
+        <point x="6.4" y="5.5"/>
+        <point x="6.6" y="5.5"/>
+        <point x="6.5" y="5.5"/>
       </points>
       <bodyColor hex="ff8000"/>
       <borderColor hex="b25900"/>
@@ -249,9 +249,9 @@
       <length value="0.5" unit="in"/>
       <width value="0.125" unit="in"/>
       <points>
-        <point x="6.5" y="6.4"/>
-        <point x="5.5" y="6.4"/>
-        <point x="6.0" y="6.4"/>
+        <point x="6.4" y="5.3"/>
+        <point x="5.6" y="5.3"/>
+        <point x="6.0" y="5.3"/>
       </points>
       <bodyColor hex="82cffd"/>
       <borderColor hex="5b90b1"/>
@@ -367,36 +367,12 @@
     </diylc.guitar.SingleCoilPickup>
     <diylc.misc.GroundSymbol>
       <name>GND2</name>
-      <point x="5.5" y="6.4"/>
+      <point x="5.6" y="5.3"/>
       <color hex="000000"/>
       <size value="0.15" unit="in"/>
       <type>DEFAULT</type>
       <orientation>DEFAULT</orientation>
     </diylc.misc.GroundSymbol>
-    <diylc.passive.AxialFilmCapacitor>
-      <name>100nf</name>
-      <alpha>127</alpha>
-      <length value="0.5" unit="in"/>
-      <width value="0.125" unit="in"/>
-      <points>
-        <point x="6.3" y="6.0"/>
-        <point x="6.6" y="6.0"/>
-        <point x="6.45" y="6.0"/>
-      </points>
-      <bodyColor hex="ffe303"/>
-      <borderColor hex="b29e02"/>
-      <labelColor hex="000000"/>
-      <leadColor hex="cccccc"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>false</hideShortLeads>
-      <value value="1.0" unit="nF"/>
-      <voltage>_63V</voltage>
-      <showOuterFoil>false</showOuterFoil>
-      <outerFoilColor hex="ffffff"/>
-    </diylc.passive.AxialFilmCapacitor>
     <diylc.misc.GroundSymbol>
       <name>GND1</name>
       <point x="4.9" y="4.0"/>
@@ -689,31 +665,6 @@
       <stripe1>false</stripe1>
       <stripe2>false</stripe2>
     </diylc.connectivity.TwistedWire>
-    <diylc.passive.RadialFilmCapacitor>
-      <name>68 nf</name>
-      <alpha>127</alpha>
-      <length value="0.5" unit="in"/>
-      <width value="0.125" unit="in"/>
-      <points>
-        <point x="6.5" y="6.2"/>
-        <point x="6.7" y="6.2"/>
-        <point x="6.6" y="6.2"/>
-      </points>
-      <bodyColor hex="ff8000"/>
-      <borderColor hex="b25900"/>
-      <labelColor hex="000000"/>
-      <leadColor hex="cccccc"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>false</hideShortLeads>
-      <value value="22.0" unit="nF"/>
-      <voltage>_63V</voltage>
-      <showOuterFoil>false</showOuterFoil>
-      <outerFoilColor hex="ffffff"/>
-      <pinSpacing value="0.1" unit="in"/>
-    </diylc.passive.RadialFilmCapacitor>
     <diylc.passive.AxialFilmCapacitor>
       <name>Treble Bleed </name>
       <alpha>127</alpha>
@@ -772,8 +723,8 @@
       <controlPoints2>
         <point x="4.6" y="5.1"/>
         <point x="4.7" y="5.7"/>
-        <point x="5.2" y="6.1"/>
-        <point x="6.3" y="6.0"/>
+        <point x="6.0" y="7.0"/>
+        <point x="6.8" y="6.0"/>
       </controlPoints2>
       <color hex="ffff66"/>
       <pointCount>FOUR</pointCount>
@@ -804,10 +755,10 @@
       <name>W6</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="6.7" y="6.4"/>
-        <point x="7.2" y="6.4"/>
-        <point x="7.2" y="6.4"/>
-        <point x="6.9" y="6.0"/>
+        <point x="6.6" y="5.3"/>
+        <point x="7.0" y="5.6"/>
+        <point x="6.0" y="5.8"/>
+        <point x="6.2" y="6.0"/>
       </controlPoints2>
       <color hex="ffff66"/>
       <pointCount>FOUR</pointCount>
@@ -836,29 +787,44 @@
       <striped>true</striped>
       <stripeColor hex="009933"/>
     </diylc.connectivity.HookupWire>
+    <diylc.passive.RadialFilmCapacitor>
+      <name>68 nf</name>
+      <alpha>127</alpha>
+      <length value="0.5" unit="in"/>
+      <width value="0.125" unit="in"/>
+      <points>
+        <point x="6.5" y="6.1"/>
+        <point x="6.8" y="6.1"/>
+        <point x="6.65" y="6.1"/>
+      </points>
+      <bodyColor hex="ff8000"/>
+      <borderColor hex="b25900"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="22.0" unit="nF"/>
+      <voltage>_63V</voltage>
+      <showOuterFoil>false</showOuterFoil>
+      <outerFoilColor hex="ffffff"/>
+      <pinSpacing value="0.1" unit="in"/>
+    </diylc.passive.RadialFilmCapacitor>
   </components>
   <groups>
     <set>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
-      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
-      <diylc.electromechanical.PinHeader reference="../../../components/diylc.electromechanical.PinHeader"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
+      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper"/>
+      <diylc.electromechanical.PinHeader reference="../../../components/diylc.electromechanical.PinHeader"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[8]"/>
-    </set>
-    <set>
-      <diylc.passive.PotentiometerPanel reference="../../../components/diylc.passive.PotentiometerPanel"/>
-      <diylc.connectivity.HookupWire reference="../../../components/diylc.connectivity.HookupWire[8]"/>
-      <diylc.electromechanical.MiniToggleSwitch reference="../../../components/diylc.electromechanical.MiniToggleSwitch"/>
-      <diylc.passive.AxialFilmCapacitor reference="../../../components/diylc.passive.AxialFilmCapacitor"/>
-      <diylc.passive.Resistor reference="../../../components/diylc.passive.Resistor"/>
-      <diylc.passive.RadialFilmCapacitor reference="../../../components/diylc.passive.RadialFilmCapacitor[2]"/>
-      <diylc.misc.GroundSymbol reference="../../../components/diylc.misc.GroundSymbol"/>
-      <diylc.passive.RadialFilmCapacitor reference="../../../components/diylc.passive.RadialFilmCapacitor"/>
     </set>
   </groups>
   <lockedLayers/>

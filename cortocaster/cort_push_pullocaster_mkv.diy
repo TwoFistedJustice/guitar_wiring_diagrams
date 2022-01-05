@@ -232,9 +232,9 @@
       <length value="0.5" unit="in"/>
       <width value="0.125" unit="in"/>
       <points>
-        <point x="6.0" y="7.0"/>
-        <point x="5.2" y="7.0"/>
-        <point x="5.6" y="7.0"/>
+        <point x="6.2" y="7.0"/>
+        <point x="7.0" y="7.0"/>
+        <point x="6.6" y="7.0"/>
       </points>
       <bodyColor hex="82cffd"/>
       <borderColor hex="5b90b1"/>
@@ -350,7 +350,7 @@
     </diylc.guitar.SingleCoilPickup>
     <diylc.misc.GroundSymbol>
       <name>GND2</name>
-      <point x="5.2" y="7.0"/>
+      <point x="7.0" y="7.0"/>
       <color hex="000000"/>
       <size value="0.15" unit="in"/>
       <type>DEFAULT</type>
@@ -702,9 +702,9 @@
       <name>W6</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="6.2" y="7.0"/>
-        <point x="6.9" y="6.8"/>
-        <point x="6.3" y="6.1"/>
+        <point x="6.0" y="7.0"/>
+        <point x="4.4" y="6.1"/>
+        <point x="4.7" y="6.0"/>
         <point x="5.8" y="5.7"/>
       </controlPoints2>
       <color hex="ffff66"/>

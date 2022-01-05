@@ -144,12 +144,12 @@
       <name>Tone</name>
       <alpha>127</alpha>
       <controlPoints>
-        <point x="6.2" y="6.4"/>
-        <point x="6.5" y="6.4"/>
-        <point x="6.8" y="6.4"/>
+        <point x="6.4" y="5.7"/>
+        <point x="6.1" y="5.7"/>
+        <point x="5.8" y="5.7"/>
       </controlPoints>
       <resistance value="250.0" unit="K"/>
-      <orientation>DEFAULT</orientation>
+      <orientation>_180</orientation>
       <taper>LOG</taper>
       <bodyDiameter value="1.0" unit="in"/>
       <spacing value="0.3" unit="in"/>
@@ -166,12 +166,12 @@
       <name>SW1</name>
       <alpha>127</alpha>
       <controlPoints>
-        <point x="6.4" y="5.1"/>
-        <point x="6.4" y="5.3"/>
-        <point x="6.4" y="5.5"/>
-        <point x="6.6" y="5.1"/>
-        <point x="6.6" y="5.3"/>
-        <point x="6.6" y="5.5"/>
+        <point x="6.0" y="6.8"/>
+        <point x="6.0" y="7.0"/>
+        <point x="6.0" y="7.2"/>
+        <point x="6.2" y="6.8"/>
+        <point x="6.2" y="7.0"/>
+        <point x="6.2" y="7.2"/>
       </controlPoints>
       <switchType>DPDT</switchType>
       <orientation>VERTICAL</orientation>
@@ -207,9 +207,9 @@
       <length value="0.5" unit="in"/>
       <width value="0.125" unit="in"/>
       <points>
-        <point x="6.4" y="5.1"/>
-        <point x="6.6" y="5.1"/>
-        <point x="6.5" y="5.1"/>
+        <point x="6.0" y="7.2"/>
+        <point x="6.2" y="7.2"/>
+        <point x="6.1" y="7.2"/>
       </points>
       <bodyColor hex="ff8000"/>
       <borderColor hex="b25900"/>
@@ -232,9 +232,9 @@
       <length value="0.5" unit="in"/>
       <width value="0.125" unit="in"/>
       <points>
-        <point x="6.6" y="5.3"/>
-        <point x="7.3" y="5.3"/>
-        <point x="6.95" y="5.3"/>
+        <point x="6.0" y="7.0"/>
+        <point x="5.2" y="7.0"/>
+        <point x="5.6" y="7.0"/>
       </points>
       <bodyColor hex="82cffd"/>
       <borderColor hex="5b90b1"/>
@@ -350,7 +350,7 @@
     </diylc.guitar.SingleCoilPickup>
     <diylc.misc.GroundSymbol>
       <name>GND2</name>
-      <point x="7.3" y="5.3"/>
+      <point x="5.2" y="7.0"/>
       <color hex="000000"/>
       <size value="0.15" unit="in"/>
       <type>DEFAULT</type>
@@ -670,8 +670,8 @@
       <controlPoints2>
         <point x="4.6" y="5.1"/>
         <point x="4.7" y="5.7"/>
-        <point x="6.0" y="7.0"/>
-        <point x="6.2" y="6.4"/>
+        <point x="5.6" y="6.7"/>
+        <point x="6.4" y="5.7"/>
       </controlPoints2>
       <color hex="ffff66"/>
       <pointCount>FOUR</pointCount>
@@ -702,10 +702,10 @@
       <name>W6</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="6.4" y="5.3"/>
-        <point x="5.9" y="5.7"/>
-        <point x="6.3" y="6.0"/>
-        <point x="6.8" y="6.4"/>
+        <point x="6.2" y="7.0"/>
+        <point x="6.9" y="6.8"/>
+        <point x="6.3" y="6.1"/>
+        <point x="5.8" y="5.7"/>
       </controlPoints2>
       <color hex="ffff66"/>
       <pointCount>FOUR</pointCount>
@@ -740,9 +740,9 @@
       <length value="0.5" unit="in"/>
       <width value="0.125" unit="in"/>
       <points>
-        <point x="6.2" y="6.4"/>
-        <point x="6.5" y="6.4"/>
-        <point x="6.35" y="6.4"/>
+        <point x="6.4" y="5.7"/>
+        <point x="6.1" y="5.7"/>
+        <point x="6.25" y="5.7"/>
       </points>
       <bodyColor hex="ff8000"/>
       <borderColor hex="b25900"/>
@@ -814,16 +814,16 @@
   </components>
   <groups>
     <set>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[8]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
-      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
-      <diylc.electromechanical.PinHeader reference="../../../components/diylc.electromechanical.PinHeader"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[8]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
+      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
+      <diylc.electromechanical.PinHeader reference="../../../components/diylc.electromechanical.PinHeader"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
     </set>
   </groups>
   <lockedLayers/>

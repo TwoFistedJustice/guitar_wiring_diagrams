@@ -437,8 +437,8 @@
       <alpha>127</alpha>
       <points>
         <point x="9.1" y="3.6"/>
-        <point x="9.5" y="3.8"/>
-        <point x="9.3" y="3.7"/>
+        <point x="9.4" y="3.8"/>
+        <point x="9.250000000000002" y="3.7"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -783,7 +783,7 @@
         <point x="4.6" y="3.7"/>
         <point x="5.9" y="3.2"/>
         <point x="5.3" y="5.2"/>
-        <point x="8.9" y="2.5"/>
+        <point x="8.7" y="2.5"/>
       </controlPoints2>
       <color hex="ffffff"/>
       <pointCount>FOUR</pointCount>
@@ -799,8 +799,8 @@
       <alpha>127</alpha>
       <controlPoints2>
         <point x="8.5" y="3.6"/>
-        <point x="9.6" y="2.9"/>
-        <point x="8.9" y="2.7"/>
+        <point x="7.9" y="3.1"/>
+        <point x="8.7" y="2.7"/>
       </controlPoints2>
       <color hex="ffff66"/>
       <pointCount>THREE</pointCount>
@@ -814,15 +814,15 @@
   </components>
   <groups>
     <set>
+      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[8]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
-      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
+      <diylc.electromechanical.PinHeader reference="../../../components/diylc.electromechanical.PinHeader"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
-      <diylc.electromechanical.PinHeader reference="../../../components/diylc.electromechanical.PinHeader"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
     </set>
   </groups>

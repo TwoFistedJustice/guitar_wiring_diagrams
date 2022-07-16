@@ -1,6 +1,8 @@
 
 6/5/22 Volume doesn't seem to work
 
+7/16 Tone doesn't work....
+
 
 Tone Pot: 
 Switch between grease buckets
@@ -12,4 +14,6 @@ The third switch was meant to be phase reverse but there isn't room in the cavit
 
 
 Still to do:
-Add treble bleed circuit
+
+
+

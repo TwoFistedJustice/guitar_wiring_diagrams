@@ -2,7 +2,7 @@
 <project>
   <fileVersion>
     <major>4</major>
-    <minor>19</minor>
+    <minor>24</minor>
     <build>0</build>
   </fileVersion>
   <title>Greasebucket shifter</title>
@@ -141,7 +141,7 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.passive.PotentiometerPanel>
-      <name>Tone</name>
+      <name>Tone On/Off</name>
       <alpha>127</alpha>
       <controlPoints>
         <point x="6.4" y="5.7"/>
@@ -163,7 +163,6 @@
       <view>ShaftDown</view>
     </diylc.passive.PotentiometerPanel>
     <diylc.electromechanical.MiniToggleSwitch>
-      <name>SW1</name>
       <alpha>127</alpha>
       <controlPoints>
         <point x="6.0" y="6.8"/>
@@ -173,6 +172,7 @@
         <point x="6.2" y="7.0"/>
         <point x="6.2" y="7.2"/>
       </controlPoints>
+      <name>SW1</name>
       <switchType>DPDT</switchType>
       <orientation>VERTICAL</orientation>
       <spacing value="0.2" unit="in"/>
@@ -202,7 +202,7 @@
       <view>ShaftDown</view>
     </diylc.passive.PotentiometerPanel>
     <diylc.passive.RadialFilmCapacitor>
-      <name>20nf</name>
+      <name>72nf</name>
       <alpha>127</alpha>
       <length value="0.5" unit="in"/>
       <width value="0.125" unit="in"/>
@@ -220,7 +220,7 @@
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
       <hideShortLeads>false</hideShortLeads>
-      <value value="33.0" unit="nF"/>
+      <value value="72.0" unit="nF"/>
       <voltage>_63V</voltage>
       <showOuterFoil>false</showOuterFoil>
       <outerFoilColor hex="ffffff"/>
@@ -778,7 +778,7 @@
       <stripeColor hex="009933"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.RadialFilmCapacitor>
-      <name>68 nf</name>
+      <name>82 nf</name>
       <alpha>127</alpha>
       <length value="0.5" unit="in"/>
       <width value="0.125" unit="in"/>
@@ -796,14 +796,13 @@
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
       <hideShortLeads>false</hideShortLeads>
-      <value value="22.0" unit="nF"/>
+      <value value="82.0" unit="nF"/>
       <voltage>_63V</voltage>
       <showOuterFoil>false</showOuterFoil>
       <outerFoilColor hex="ffffff"/>
       <pinSpacing value="0.1" unit="in"/>
     </diylc.passive.RadialFilmCapacitor>
     <diylc.electromechanical.MiniToggleSwitch>
-      <name>SW2</name>
       <alpha>127</alpha>
       <controlPoints>
         <point x="8.700000000000001" y="2.3"/>
@@ -813,6 +812,7 @@
         <point x="8.9" y="2.4999999999999996"/>
         <point x="8.9" y="2.7"/>
       </controlPoints>
+      <name>SW2</name>
       <switchType>DPDT</switchType>
       <orientation>VERTICAL</orientation>
       <spacing value="0.2" unit="in"/>
@@ -872,19 +872,32 @@
       <striped>true</striped>
       <stripeColor hex="990033"/>
     </diylc.connectivity.HookupWire>
+    <diylc.misc.WrapLabel>
+      <name>L10</name>
+      <controlPoints>
+        <point x="6.7" y="7.2"/>
+        <point x="8.195" y="7.7"/>
+      </controlPoints>
+      <firstPoint x="6.7" y="7.2"/>
+      <secondPoint x="8.195" y="7.7"/>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <value>Final capacitance: 32 nf</value>
+    </diylc.misc.WrapLabel>
   </components>
   <groups>
     <set>
-      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
-      <diylc.electromechanical.PinHeader reference="../../../components/diylc.electromechanical.PinHeader"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[8]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
+      <diylc.electromechanical.PinHeader reference="../../../components/diylc.electromechanical.PinHeader"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
+      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
     </set>
   </groups>
   <lockedLayers/>

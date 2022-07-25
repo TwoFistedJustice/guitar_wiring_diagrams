@@ -1,7 +1,11 @@
 
 6/5/22 Volume doesn't seem to work
+Removed pot and disassembled it because I coulnd't get it to work. I think I fried the center lug.
+Replaced it with a temporary volume pot and now it works.
 
 7/16 Tone doesn't work....
+
+7/20 - Tone pot fixed. Bad ground.
 
 
 Tone Pot: 

@@ -778,7 +778,7 @@
       <stripeColor hex="009933"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.RadialFilmCapacitor>
-      <name>82 nf</name>
+      <name>100 nf</name>
       <alpha>127</alpha>
       <length value="0.5" unit="in"/>
       <width value="0.125" unit="in"/>
@@ -796,7 +796,7 @@
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
       <hideShortLeads>false</hideShortLeads>
-      <value value="82.0" unit="nF"/>
+      <value value="100.0" unit="nF"/>
       <voltage>_63V</voltage>
       <showOuterFoil>false</showOuterFoil>
       <outerFoilColor hex="ffffff"/>
@@ -872,31 +872,18 @@
       <striped>true</striped>
       <stripeColor hex="990033"/>
     </diylc.connectivity.HookupWire>
-    <diylc.misc.WrapLabel>
-      <name>L10</name>
-      <controlPoints>
-        <point x="6.7" y="7.2"/>
-        <point x="8.195" y="7.7"/>
-      </controlPoints>
-      <firstPoint x="6.7" y="7.2"/>
-      <secondPoint x="8.195" y="7.7"/>
-      <font name="Dialog.plain" size="14" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>LEFT</horizontalAlignment>
-      <value>Final capacitance: 32 nf</value>
-    </diylc.misc.WrapLabel>
   </components>
   <groups>
     <set>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[8]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
-      <diylc.electromechanical.PinHeader reference="../../../components/diylc.electromechanical.PinHeader"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
-      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[8]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
+      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
+      <diylc.electromechanical.PinHeader reference="../../../components/diylc.electromechanical.PinHeader"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
     </set>
   </groups>

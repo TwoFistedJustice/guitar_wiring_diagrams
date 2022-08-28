@@ -69,9 +69,9 @@
       <layer>_1</layer>
     </diylc.connectivity.CurvedTrace>
     <diylc.guitar.SingleCoilPickup>
-      <name>PKP1</name>
+      <name>Neck 4.52k</name>
       <alpha>127</alpha>
-      <value></value>
+      <value>Hamer SC</value>
       <orientation>DEFAULT</orientation>
       <controlPoint x="0.0" y="0.0"/>
       <controlPoints>
@@ -90,9 +90,9 @@
       <lugColor hex="e0c04c"/>
     </diylc.guitar.SingleCoilPickup>
     <diylc.guitar.SingleCoilPickup>
-      <name>PKP2</name>
+      <name>Middle  4.87k</name>
       <alpha>127</alpha>
-      <value></value>
+      <value>Hamer SC</value>
       <orientation>DEFAULT</orientation>
       <controlPoint x="0.0" y="0.0"/>
       <controlPoints>
@@ -111,9 +111,9 @@
       <lugColor hex="e0c04c"/>
     </diylc.guitar.SingleCoilPickup>
     <diylc.guitar.HumbuckerPickup>
-      <name>PKP3</name>
+      <name>Bridge 11.17k</name>
       <alpha>127</alpha>
-      <value></value>
+      <value>TOG Humbucker ( trickoutguitar.com )</value>
       <orientation>DEFAULT</orientation>
       <controlPoint x="0.0" y="0.0"/>
       <controlPoints>
@@ -123,7 +123,7 @@
         <point x="5.2" y="4.1"/>
       </controlPoints>
       <polarity>North</polarity>
-      <labelColor hex="000000"/>
+      <labelColor hex="cc0000"/>
       <color hex="c0c0c0"/>
       <poleColor hex="759daf"/>
       <type>PAF</type>

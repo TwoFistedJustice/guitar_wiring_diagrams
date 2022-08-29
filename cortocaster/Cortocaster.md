@@ -20,4 +20,9 @@ The third switch was meant to be phase reverse but there isn't room in the cavit
 Still to do:
 
 
+8/28
+The volume wasn't working with the push pull, probably just a bad ground. I pulled it.
 
+Replaced with a normal audio pot using a Guitar Family treble bleed.
+
+I also added a 20nf cap the "tone off" circuit because the tone-off feature was kind of BORRRRRRRRRING.
